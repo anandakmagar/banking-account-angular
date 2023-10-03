@@ -13,7 +13,8 @@ import { AccountStatementResponse } from './account-statement-response';
 })
 
 export class TransactionServiceService {
-  url = 'http://localhost:8072/transaction';
+  //url = 'http://localhost:8072/transaction';
+  url = 'https://banking-transaction-91fa2632c7f6.herokuapp.com';
 
   httpHeader = {
     headers: new HttpHeaders({ 'Content-Type': 'application/json' })
